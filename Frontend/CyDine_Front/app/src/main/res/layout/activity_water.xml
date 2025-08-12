@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#EFBF04">
+
+    <!-- Center the CyDine text at the top -->
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:text="CyDine"
+        android:textColor="#BD2031"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/water_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Water Tracker"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#BD2031"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <!-- Circular Goal Layout -->
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <!-- Circular ProgressBar -->
+        <ProgressBar
+            android:id="@+id/water_goal_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indeterminate="false"
+            android:max="2000"
+            android:progress="500"
+            android:progressDrawable="@drawable/circular_progress_drawable"
+            android:visibility="visible"
+            android:layout_gravity="center"/>
+
+        <!-- Goal Text in the Center of the Circular ProgressBar -->
+        <TextView
+            android:id="@+id/water_goal_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Goal: 500/2000 ml"
+            android:textColor="#004D40"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <!-- Water Goal Input (Initially Hidden) -->
+    <EditText
+        android:id="@+id/goal_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your water goal (ml)"
+        android:inputType="number"
+        android:visibility="gone"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Water Input -->
+    <EditText
+        android:id="@+id/water_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter water amount (ml)"
+        android:inputType="number"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <!-- Add Water button with #BD2031 color -->
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Water"
+            android:backgroundTint="#BD2031"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:layout_marginEnd="8dp"/>
+
+
+    </LinearLayout>
+
+    <!-- Set Goal Button -->
+    <Button
+        android:id="@+id/set_goal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Water Goal"
+        android:backgroundTint="#BD2031"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Confirm Goal Button (Initially Hidden) -->
+    <Button
+        android:id="@+id/confirm_goal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Goal"
+        android:backgroundTint="#BD2031"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/remaining_water_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remaining: 1500 ml"
+        android:textSize="16sp"
+        android:textColor="#004D40"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"/>
+
+    <!-- Last 5 Days Intake Section -->
+    <TextView
+        android:id="@+id/last_5_days_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last 5 Days Intake"
+        android:textSize="20sp"
+        android:textColor="#BD2031"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/last_5_days_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:layout_marginTop="8dp"
+        android:background="#F0F0F0"
+        android:padding="10dp"
+        android:visibility="visible" />
+
+
+</LinearLayout>

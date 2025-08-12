@@ -1,0 +1,50 @@
+<resources>
+    <!-- Existing app name string -->
+    <string name="app_name">AndroidExample</string>
+
+    <!-- Labels for Profile Input Fields -->
+    <string name="dietary_preference">Dietary Preference</string>
+    <string name="height">Height (cm)</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="age">Age</string>
+
+    <!-- Array for Fitness Goals -->
+    <string-array name="fitness_goals_array">
+        <item>Bulking</item>
+        <item>Cutting</item>
+        <item>Maintaining</item>
+    </string-array>
+
+    <!-- Array for Dietary Preferences -->
+    <string-array name="dietary_restrictions_array">
+        <item>None</item>
+        <item>Vegan</item>
+        <item>Vegetarian</item>
+        <item>Gluten-Free</item>
+        <item>Nut-Free</item>
+        <item>Dairy-Free</item>
+        <item>Keto</item>
+        <item>Paleo</item>
+    </string-array>
+
+
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="select_dining_center">Select Dining Center</string>
+    <string name="select_meal_type">Select Meal Type</string>
+
+    <string-array name="dining_centers">
+        <item>UDCC</item>
+        <item>Friley</item>
+        <item>Seasons</item>
+    </string-array>
+
+    <string-array name="meal_types">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Late Night</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidExample</string>
+    <string name="message_hint">Type a message...</string>
+    <string name="send_button_text">Send</string>
+    <string name="emoji_button_text">😀</string>
+    <string name="emoji_1">😀</string>
+    <string name="emoji_2">😂</string>
+    <string name="emoji_3">😍</string>
+    <string name="emoji_4">😢</string>
+    <string name="emoji_5">😎</string>
+    <string name="emoji_6">👍</string>
+</resources>
