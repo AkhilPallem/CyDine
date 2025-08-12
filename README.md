@@ -1,5 +1,5 @@
-CyDine is an innovative app designed to assist college students in making healthier food choices, particularly targeting the common issue of the "Freshman 15." By providing personalized meal plans based on Iowa State University's dining hall menus, CyDine helps users navigate their nutritional needs according to their preferences, fitness goals, and dietary restrictions. The app not only tracks calorie intake and physical activity but also fosters community engagement through a message board where users can share meal ideas and tips. Ultimately, CyDine aims to simplify healthy eating for students, making it easier for them to maintain a balanced diet during their college years.
+CyDine is a cutting-edge app crafted to empower college students to make healthier food choices and combat the infamous "Freshman 15." Tailored specifically for Iowa State University students, CyDine offers personalized meal plans based on real dining hall menus, adapting to individual preferences, fitness goals, and dietary restrictions. Beyond tracking calories and physical activity, the app builds a supportive community with a message board where users can exchange meal ideas and wellness tips. By simplifying nutritious eating, CyDine makes it easier for students to maintain a balanced lifestyle throughout their college journey.
 
-Winner of App of the Semester and Best project. Winners for Best Coders and Best Managers
+Proud winner of App of the Semester and Best Project, as well as accolades for Best Coders and Best Managers.
 
-https://youtu.be/c8712FBMAIE
+Watch it in action: https://youtu.be/c8712FBMAIE
